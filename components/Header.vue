@@ -5,7 +5,7 @@
     <div class="sm:hidden md:grid place-items-center bg-black">
         <div class="flex w-4/6 text-white p-2 justify-between items-center">
             <div class="flex w-2/5">
-                <img class="w-2/5" src="https://legendaryexoticrentals.com/wp-content/uploads/2022/03/laslogo_new.png" alt="">
+                <a href="/"><img class="w-2/5" src="https://legendaryexoticrentals.com/wp-content/uploads/2022/03/laslogo_new.png" alt=""></a>
             </div>
 
             <div>
@@ -13,9 +13,9 @@
                     <a href="/"><li>Home</li></a>
                     <li>Private Tours</li>
                     <a href="#services"><li>Services</li></a>
-                    <li>Available Cars</li>
-                    <li>Location</li>
-                    <li>Contact</li>
+                    <a href="#cars"><li>Available Cars</li></a>
+                    <a href="#locations"><li>Location</li></a>
+                    <a href="#contact"><li>Contact</li></a>
                 </ul>
             </div>
 

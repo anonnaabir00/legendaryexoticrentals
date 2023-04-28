@@ -20,7 +20,7 @@ module.exports = {
     },
     extend: {
       backgroundImage: {
-        'hero': "url('https://legendaryexoticrentals.com/wp-content/uploads/2022/03/lasrental_hero-scaled.jpeg')",        
+        'hero': "url('https://lasrental.s3.us-west-2.amazonaws.com/lasrental_website/lasrental_hero.jpeg')",        
       }
     },
   },

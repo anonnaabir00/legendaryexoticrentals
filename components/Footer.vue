@@ -1,6 +1,6 @@
 <template>
     <div>
-        <div class="grid place-items-center w-full sm:p-8 md:p-16 bg-gray-50">
+        <div id="contact" class="grid place-items-center w-full sm:p-8 md:p-16 bg-gray-50">
             <h2 class="sm:text-xl md:text-2xl font-bold">Contact Us:</h2>
             <p class="text-base text-center leading-loose mt-4">7326 E Evans Rd<br>
             Scottsdale, AZ 85260<br>
