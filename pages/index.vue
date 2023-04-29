@@ -97,7 +97,7 @@
 
             <div class="grid sm:grid-cols-1 md:grid-cols-2 mt-4 mb-4 gap-8 sm:w-4/5 md:w-3/5">
                 <div class="bg-white shadow-lg">
-                    <img class="w-full sm:h-56 md:h-96 object-cover" src="https://lasrental.s3.us-west-2.amazonaws.com/lasrental_website/Mercedes_thumbnail.jpg" alt="">
+                    <a href="/mercedes-gts"><img class="w-full sm:h-56 md:h-96 object-cover" src="https://lasrental.s3.us-west-2.amazonaws.com/lasrental_website/Mercedes_thumbnail.jpg" alt=""></a>
                     <div class="text-center mt-8 mb-8">
                     <h4 class="mb-4">Mercedes GT-S AMG</h4>
                     <p class="mb-6">24HR: $800</p>
@@ -107,11 +107,11 @@
 
 
                 <div class="bg-white shadow-lg">
-                    <img class="w-full sm:h-56 md:h-96 object-cover" src="https://lasrental.s3.us-west-2.amazonaws.com/lasrental_website/Mclaren_GT_01.jpg" alt="">
+                    <a href="/maclaren-gt-rental"><img class="w-full sm:h-56 md:h-96 object-cover" src="https://lasrental.s3.us-west-2.amazonaws.com/lasrental_website/Mclaren_GT_01.jpg" alt=""></a>
                     <div class="text-center mt-8 mb-8">
-                    <h4 class="mb-4">Mercedes GT-S AMG</h4>
-                    <p class="mb-6">24HR: $800</p>
-                    <a class="bg-red-600 text-white p-2 pl-8 pr-8 rounded-md" href="#">Book Now</a>
+                    <h4 class="mb-4">Mclaren GT</h4>
+                    <p class="mb-6">24HR: $1500</p>
+                    <a class="bg-red-600 text-white p-2 pl-8 pr-8 rounded-md" href="/maclaren-gt-rental">Book Now</a>
                     </div>
                     
                 </div>
@@ -121,32 +121,32 @@
 
             <div class="grid sm:grid-cols-1 md:grid-cols-3 gap-8 mt-8 mb-8 sm:w-4/5 md:w-3/5">
                 <div class="bg-white shadow-lg">
-                    <img class="w-full sm:h-56 md:h-72 object-cover" src="https://lasrental.s3.us-west-2.amazonaws.com/lasrental_website/Ferrari_488_main.jpeg" alt="">
+                    <a href="/ferrari-rental"><img class="w-full sm:h-56 md:h-72 object-cover" src="https://lasrental.s3.us-west-2.amazonaws.com/lasrental_website/Ferrari_488_main.jpeg" alt=""></a>
                     <div class="text-center mt-8 mb-8">
                     <h4 class="mb-4">Ferrari 488</h4>
                     <p class="mb-6">24HR: $1500</p>
-                    <a class="bg-red-600 text-white p-2 pl-8 pr-8 rounded-md" href="#">Book Now</a>
+                    <a class="bg-red-600 text-white p-2 pl-8 pr-8 rounded-md" href="/ferrari-rental">Book Now</a>
                     </div>
                     
                 </div>
 
 
                 <div class="bg-white shadow-lg pb-4">
-                    <img class="w-full sm:h-56 md:h-72 object-cover" src="https://lasrental.s3.us-west-2.amazonaws.com/lasrental_website/Lamborghini_HC_Thumbnail.jpg" alt="">
+                    <a href="/lamborghini-huracan-rental"><img class="w-full sm:h-56 md:h-72 object-cover" src="https://lasrental.s3.us-west-2.amazonaws.com/lasrental_website/Lamborghini_HC_Thumbnail.jpg" alt=""></a>
                     <div class="text-center mt-8 mb-8">
                     <h4 class="mb-4">Lamborghini Huracan</h4>
                     <p class="mb-6">24HR: $1500</p>
-                    <a class="bg-red-600 text-white p-2 pl-8 pr-8 rounded-md" href="#">Book Now</a>
+                    <a class="bg-red-600 text-white p-2 pl-8 pr-8 rounded-md" href="/lamborghini-huracan-rental">Book Now</a>
                     </div>
                     
                 </div>
 
                 <div class="bg-white shadow-lg pb-4">
-                    <img class="w-full sm:h-56 md:h-72 object-cover" src="https://lasrental.s3.us-west-2.amazonaws.com/lasrental_website/nissan_gtr_new_2022_june_02.jpeg" alt="">
+                    <a href="/audi-r8-rental"><img class="w-full sm:h-56 md:h-72 object-cover" src="https://lasrental.s3.us-west-2.amazonaws.com/lasrental_website/nissan_gtr_new_2022_june_02.jpeg" alt=""></a>
                     <div class="text-center mt-8 mb-8">
                     <h4 class="mb-4">Nissan GTR</h4>
                     <p class="mb-6">24HR: $800</p>
-                    <a class="bg-red-600 text-white p-2 pl-8 pr-8 rounded-md" href="#">Book Now</a>
+                    <a class="bg-red-600 text-white p-2 pl-8 pr-8 rounded-md" href="/audi-r8-rental">Book Now</a>
                     </div>
                     
                 </div>
