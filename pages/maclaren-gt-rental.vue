@@ -1,9 +1,9 @@
 <template>
     <div class="w-full">
-        <div class="grid grid-cols-2 place-items-center pt-12 pb-12">
+        <div class="grid sm:grid-cols-1 md:grid-cols-2 place-items-center pt-12 pb-12">
             <div>
                 <h1 class="text-3xl font-semibold">{{ name }}</h1>
-                <p class="text-xl mt-4">{{ info }}</p>
+                <p class="text-xl mt-4 leading-loose">{{ info }}</p>
             </div>
 
             <div class="text-center">
@@ -13,20 +13,20 @@
         </div>
 
         <div class="grid place-items-center">
-            <img class="w-4/6 rounded-xl" :src=image alt="">
+            <img class="sm:w-5/6 md:w-4/6 rounded-xl" :src=image alt="">
         </div>
 
         <div class="grid place-items-center">
-            <div class="w-4/6">
-                <p class="text-2xl leading-relaxed mt-8">{{ shortdescription }}</p>
-                <h2 class="text-4xl font-bold mt-8">Photos</h2>
-                <ul class="grid grid-cols-2 gap-8 mt-8 mb-8">
-                    <li v-for="image in gallery"><img class="w-full h-96 object-cover rounded-xl" :src=image alt=""></li>
+            <div class="sm:w-5/6 md:w-4/6">
+                <p class="sm:text-xl md:text-2xl leading-loose mt-8 sm:text-center md:text-left">{{ shortdescription }}</p>
+                <h2 class="sm:text-2xl md:text-4xl font-bold mt-8 sm:text-center md:text-left">Photos</h2>
+                <ul class="grid sm:grid-cols-1 md:grid-cols-2 gap-8 mt-8 mb-8">
+                    <li v-for="image in gallery"><img class="w-full sm:h-64 md:h-96 object-cover rounded-xl" :src=image alt=""></li>
                 </ul>
-                <h2 class="text-4xl font-bold">Description</h2>
-                <p class="text-2xl leading-loose mt-4 mb-4">{{ description }}</p>
-                <h2 class="text-4xl font-bold mt-12 mb-12">Specification</h2>
-                <div class="grid grid-cols-4 gap-8 mt-6 mb-12">
+                <h2 class="sm:text-2xl md:text-4xl font-bold mt-8 sm:text-center md:text-left">Description</h2>
+                <p class="sm:text-xl md:text-2xl leading-loose mt-4 mb-4 sm:text-center md:text-left">{{ description }}</p>
+                <h2 class="sm:text-2xl md:text-4xl font-bold sm:text-center md:text-left mt-12 mb-12">Specification</h2>
+                <div class="grid sm:grid-cols-2 md:grid-cols-4 gap-8 mt-6 mb-12 sm:text-center md:text-left">
                     <div class="grid grid-cols-1 gap-6">
                         <div>
                             <h4 class="text-2xl font-bold">Brand</h4>
