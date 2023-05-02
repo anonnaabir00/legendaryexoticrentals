@@ -31,28 +31,34 @@
 
     <div>
         <div class="flex justify-end items-center">
-            <div>
-            <!-- drawer init and toggle -->
-            <div class="text-center">
-            <button class="text-white" type="button" data-drawer-target="drawer-example" data-drawer-show="drawer-example" aria-controls="drawer-example">
-                <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
-            </svg>
-            </button>
-            </div>
-            </div>
+            <Menu as="div" class="relative inline-block text-left">
+    <div>
+      <MenuButton class="inline-flex w-full justify-center gap-x-1.5 rounded-md bg-white px-3 py-2 text-sm font-semibold text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 hover:bg-gray-50">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+        <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+        </svg>
+      </MenuButton>
+    </div>
 
-            <!-- drawer component -->
-            <div id="drawer-example" class="fixed top-0 left-0 z-40 h-screen p-4 overflow-y-auto transition-transform -translate-x-full bg-white w-80 dark:bg-gray-800" tabindex="-1" aria-labelledby="drawer-label">
-                <ul class="text-base font-normal p-6">
-                <li class="p-2">
-                   
-                </li>
-                <li class="p-1 mt-6">
-                    <a class="border rounded-lg text-white font-light p-3 pl-6 pr-6"></a>
-                </li>
-              </ul>
-            </div>
+    <transition enter-active-class="transition ease-out duration-100" enter-from-class="transform opacity-0 scale-95" enter-to-class="transform opacity-100 scale-100" leave-active-class="transition ease-in duration-75" leave-from-class="transform opacity-100 scale-100" leave-to-class="transform opacity-0 scale-95">
+      <MenuItems class="absolute right-0 z-10 mt-2 w-56 origin-top-right rounded-md bg-white shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none">
+        <div class="py-1">
+        <MenuItem v-slot="{ active }">
+            <a href="#services" :class="[active ? 'bg-gray-100 text-gray-900' : 'text-gray-700', 'block px-4 py-2 text-sm']">Services</a>
+          </MenuItem>
+          <MenuItem v-slot="{ active }">
+            <a href="#cars" :class="[active ? 'bg-gray-100 text-gray-900' : 'text-gray-700', 'block px-4 py-2 text-sm']">Available Cars</a>
+          </MenuItem>
+          <MenuItem v-slot="{ active }">
+            <a href="#locations" :class="[active ? 'bg-gray-100 text-gray-900' : 'text-gray-700', 'block px-4 py-2 text-sm']">Location</a>
+          </MenuItem>
+          <MenuItem v-slot="{ active }">
+            <a href="#contact" :class="[active ? 'bg-gray-100 text-gray-900' : 'text-gray-700', 'block px-4 py-2 text-sm']">Contact</a>
+          </MenuItem>
+        </div>
+      </MenuItems>
+    </transition>
+  </Menu>
 
         </div>
     </div>
@@ -63,5 +69,21 @@
 
 <script setup>
 import 'flowbite';
+import { Menu, MenuButton, MenuItem, MenuItems } from '@headlessui/vue'
+
+// export default  {
+//     data() {
+//         return {
+//             mobilemenu: {
+//                 display: 'none'
+//             }
+//         }
+//     },
+//     methods: {
+//         toggleDrawer() {
+//             this.mobilemenu.display = 'block';
+//         }
+//     }
+// }
 
 </script>

@@ -5,7 +5,7 @@
         <div class="bg-hero bg-cover bg-center bg-no-repeat">
             <div class="grid place-items-center w-full sm:p-20 md:p-72 bg-black bg-opacity-40">
                 <h1 class="text-white text-center font-bold leading-normal text-4xl opacity-100">Rent Your Dream Car</h1>
-                <a class="bg-red-600 text-white text-base p-2 sm:pl-6 md:pl-12 sm:pr-6 md:pr-12 mt-6 rounded-md" href="#">Book A Supercar</a>
+                <a class="bg-red-600 text-white text-base p-2 sm:pl-6 md:pl-12 sm:pr-6 md:pr-12 mt-6 rounded-md" href="/booking">Book A Supercar</a>
             </div>
         </div>
 
@@ -29,7 +29,7 @@
                         <p class="text-sm">What We Offer</p>
                     </div>
                     <div class="p-4">
-                        <a href="#">
+                        <a href="/must-have">
                             <p class="sm:text-2xl md:text-3xl font-bold sm:text-right md:text-left">Rental Requirements</p>
                         </a>
                     </div>
@@ -43,7 +43,7 @@
                         <p class="text-sm">What We Offer</p>
                     </div>
                     <div class="p-4">
-                        <a href="#">
+                        <a href="/extra-packages">
                         <p class="sm:text-2xl md:text-3xl font-bold sm:text-right md:text-left">Extra Packages</p>
                         </a>
                     </div>
@@ -58,7 +58,7 @@
                         <p class="text-sm">What We Offer</p>
                     </div>
                     <div class="p-4">
-                        <a href="#">
+                        <a href="/other-services">
                         <p class="sm:text-2xl md:text-3xl font-bold sm:text-right md:text-left">Other Services</p>
                         </a>
                     </div>
