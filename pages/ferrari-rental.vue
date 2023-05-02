@@ -85,7 +85,7 @@
                             <p class="text-xl mt-2 mb-2">{{ seats }}</p>
                         </div>
 
-                        <div>
+                        <div class="sm:-mt-20 md:mt-0">
                             <h4 class="text-2xl font-bold">Torque</h4>
                             <p class="text-xl mt-2 mb-2">{{ torque }}</p>
                         </div>
