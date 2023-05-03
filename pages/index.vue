@@ -93,10 +93,10 @@
             -->
             <video
             id="my-video"
-            class="rounded-xl sm:w-5/6 md:w-3/6"
+            class="rounded-xl sm:w-5/6 md:w-2/5"
             controls
             preload="auto"
-            
+            poster="https://lasrental.s3.us-west-2.amazonaws.com/lasrental_website/lasvid.jpg"
             data-setup="{}"
             >
     <source src="https://lasrental.s3.us-west-2.amazonaws.com/lasrental_website/lasrental.mp4" type="video/mp4" /></video>
