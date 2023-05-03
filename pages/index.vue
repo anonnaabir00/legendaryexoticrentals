@@ -82,10 +82,12 @@
         <div class="grid place-items-center w-full sm:p-4 md:p-0 sm:mt-2 md:mt-24 sm:mb-8 md:mb-24">
             <h2 class="sm:text-2xl md:text-4xl font-bold mb-8">RALLY PACKAGES</h2>
             <p class="sm:text-base md:text-lg leading-loose text-center mb-8">Call now to book one of our exclusive Legendary regularly hosted Rally’s or partnered Fuel Run Rally’s with the vehicle of your dreams</p>
-            <video class="rounded-xl" width="1100" autoplay="autoplay" loop="loop" muted defaultMuted playsinline oncontextmenu="return false;"  preload="auto">
+            <!--
+                <video class="rounded-xl" width="1100" autoplay="autoplay" loop="loop" muted defaultMuted playsinline oncontextmenu="return false;"  preload="auto">
             <source src="https://lasrental.s3.us-west-2.amazonaws.com/lasrental_website/lasrental.mp4" type="video/mp4">
             </video>
-            <video autoplay loop muted playsinline class="video-background ">
+            -->
+            <video autoplay loop muted playsinline class="rounded-xl w-3/6">
             <source src="https://lasrental.s3.us-west-2.amazonaws.com/lasrental_website/lasrental.mp4" type="video/mp4">
             </video>
         </div>
