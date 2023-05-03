@@ -39,4 +39,11 @@
 definePageMeta({
   layout: "full-width",
 });
+
+useSeoMeta({
+    title: 'Rental Requirments - Legendary Exotic Rentals',
+    description: '',
+    ogDescription: '',
+    ogTitle: 'Rental Requirments - Legendary Exotic Rentals',
+})
 </script>

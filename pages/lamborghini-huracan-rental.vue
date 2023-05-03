@@ -104,8 +104,15 @@ definePageMeta({
   layout: "full-width",
 });
 
+useSeoMeta({
+    title: 'Lamborghini Huracan - Legendary Exotic Rentals',
+    description: '',
+    ogDescription: '',
+    ogTitle: 'Lamborghini Huracan - Legendary Exotic Rentals',
+})
+
 export default {
-    name: "MclarenGT",
+    name: "LamborghiniHuracan",
     data() {
         return {
             image: "https://lasrental.s3.us-west-2.amazonaws.com/lasrental_website/Lamborghini_HC_Thumbnail.jpg",

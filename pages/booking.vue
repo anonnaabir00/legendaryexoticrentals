@@ -12,4 +12,11 @@
 definePageMeta({
   layout: "full-width",
 });
+
+useSeoMeta({
+    title: 'Booking - Legendary Exotic Rentals',
+    description: '',
+    ogDescription: '',
+    ogTitle: 'Booking - Legendary Exotic Rentals',
+})
 </script>

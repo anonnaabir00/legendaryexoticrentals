@@ -85,6 +85,9 @@
             <video class="rounded-xl" width="1100" autoplay="autoplay" loop="loop" muted defaultMuted playsinline oncontextmenu="return false;"  preload="auto">
             <source src="https://lasrental.s3.us-west-2.amazonaws.com/lasrental_website/lasrental.mp4" type="video/mp4">
             </video>
+            <video autoplay loop muted playsinline class="video-background ">
+            <source src="https://lasrental.s3.us-west-2.amazonaws.com/lasrental_website/lasrental.mp4" type="video/mp4">
+            </video>
         </div>
 
         <!-- Video Section End -->
@@ -172,6 +175,13 @@
 definePageMeta({
   layout: "full-width",
 });
+
+useSeoMeta({
+    title: 'Legendary Exotic Rentals - Launch Auto Sports Rentals',
+    description: '',
+    ogDescription: '',
+    ogTitle: 'Legendary Exotic Rentals - Launch Auto Sports Rentals',
+})
 </script>
 
 

@@ -104,6 +104,13 @@ definePageMeta({
   layout: "full-width",
 });
 
+useSeoMeta({
+    title: 'Mclaren GT - Legendary Exotic Rentals',
+    description: '',
+    ogDescription: '',
+    ogTitle: 'Mclaren GT - Legendary Exotic Rentals',
+})
+
 export default {
     name: "MclarenGT",
     data() {

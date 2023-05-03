@@ -104,8 +104,15 @@ definePageMeta({
   layout: "full-width",
 });
 
+useSeoMeta({
+    title: 'Ferrari 488 - Legendary Exotic Rentals',
+    description: '',
+    ogDescription: '',
+    ogTitle: 'Ferrari 488 - Legendary Exotic Rentals',
+})
+
 export default {
-    name: "MclarenGT",
+    name: "Ferrari488",
     data() {
         return {
             image: "https://lasrental.s3.us-west-2.amazonaws.com/lasrental_website/Ferrari_488_main.jpeg",

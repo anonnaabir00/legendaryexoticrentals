@@ -104,8 +104,15 @@ definePageMeta({
   layout: "full-width",
 });
 
+useSeoMeta({
+    title: 'Nissan GTR - Legendary Exotic Rentals',
+    description: '',
+    ogDescription: '',
+    ogTitle: 'Nissan GTR - Legendary Exotic Rentals',
+})
+
 export default {
-    name: "MclarenGT",
+    name: "NissanGTR",
     data() {
         return {
             image: "https://lasrental.s3.us-west-2.amazonaws.com/lasrental_website/nissan_gtr_new_2022_june_02.jpeg",

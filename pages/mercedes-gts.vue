@@ -104,6 +104,13 @@ definePageMeta({
   layout: "full-width",
 });
 
+useSeoMeta({
+    title: 'Mercedes GT-S AMG - Legendary Exotic Rentals',
+    description: '',
+    ogDescription: '',
+    ogTitle: 'Mercedes GT-S AMG - Legendary Exotic Rentals',
+})
+
 export default {
     name: "MercedesGTS",
     data() {

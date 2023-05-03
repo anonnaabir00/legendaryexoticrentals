@@ -49,4 +49,11 @@
 definePageMeta({
   layout: "full-width",
 });
+
+useSeoMeta({
+    title: 'Extra Packages - Legendary Exotic Rentals',
+    description: '',
+    ogDescription: '',
+    ogTitle: 'Extra Packages - Legendary Exotic Rentals',
+})
 </script>
