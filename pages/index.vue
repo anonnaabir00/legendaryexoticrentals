@@ -87,7 +87,7 @@
             <source src="https://lasrental.s3.us-west-2.amazonaws.com/lasrental_website/lasrental.mp4" type="video/mp4">
             </video>
             -->
-            <video autoplay loop muted playsinline class="rounded-xl w-3/6">
+            <video autoplay loop muted playsinline class="rounded-xl sm:w-5/6 md:w-3/6">
             <source src="https://lasrental.s3.us-west-2.amazonaws.com/lasrental_website/lasrental.mp4" type="video/mp4">
             </video>
         </div>
