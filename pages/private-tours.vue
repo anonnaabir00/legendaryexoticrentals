@@ -167,9 +167,9 @@ definePageMeta({
 });
 
 useSeoMeta({
-    title: 'Other Services - Legendary Exotic Rentals',
+    title: 'Private Tours - Legendary Exotic Rentals',
     description: '',
     ogDescription: '',
-    ogTitle: 'Other Services - Legendary Exotic Rentals',
+    ogTitle: 'Private Tours - Legendary Exotic Rentals',
 })
 </script>

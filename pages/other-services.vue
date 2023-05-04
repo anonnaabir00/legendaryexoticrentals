@@ -1,4 +1,5 @@
 <template>
+    <!--
     <div class="grid grid-cols-1 place-items-center pt-16 pb-16">
         <div class="sm:w-full md:w-3/5">
             <h1 class="text-4xl font-bold text-center">Other Services</h1>
@@ -10,6 +11,7 @@
             </div>
         </div>
     </div>
+    -->
 </template>
 
 
