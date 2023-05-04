@@ -71,7 +71,6 @@
 </template>
 
 <script setup>
-import 'flowbite';
 import { Menu, MenuButton, MenuItem, MenuItems } from '@headlessui/vue'
 
 // export default  {

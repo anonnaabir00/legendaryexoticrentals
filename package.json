@@ -8,13 +8,13 @@
     "postinstall": "nuxt prepare"
   },
   "devDependencies": {
+    "@nuxt/image-edge": "^1.0.0-28050764.aaee7ac",
     "@nuxtjs/tailwindcss": "^6.6.0",
     "nuxt": "^3.3.1",
     "nuxt-icon": "^0.3.3",
     "video.js": "^8.3.0"
   },
   "dependencies": {
-    "@headlessui/vue": "^1.7.13",
-    "flowbite": "^1.6.4"
+    "@headlessui/vue": "^1.7.13"
   }
 }
