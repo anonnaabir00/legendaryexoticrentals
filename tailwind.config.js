@@ -22,6 +22,7 @@ module.exports = {
       backgroundImage: {
         'hero': "url('https://lasrental.s3.us-west-2.amazonaws.com/lasrental_website/lasrental_hero.jpeg')",
         'private-tours': "url('https://lasrental.s3.us-west-2.amazonaws.com/lasrental_website/antelope-canyon.jpg')",
+        'grand-canyon': "url('https://lasrental.s3.us-west-2.amazonaws.com/lasrental_website/grand-caynon.jpg')",
       }
     },
   },

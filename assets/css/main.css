@@ -11,3 +11,16 @@ body {
 .bg-color-invert{
   background-color: #262B41;
 }
+
+.video {
+  width: 592px;
+  height: 333px;
+  object-fit: cover;
+}
+
+@media screen and (max-width: 768px) {
+  .video {
+    width: 300px;
+    height: auto;
+  }
+}
