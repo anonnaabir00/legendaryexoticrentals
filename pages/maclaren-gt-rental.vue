@@ -117,7 +117,7 @@ export default {
         return {
             image: "https://lasrental.s3.us-west-2.amazonaws.com/lasrental_website/Mclaren_GT_Thumbnail.jpg",
             name: "Mclaren GT",
-            price: 1500,
+            price: 1000,
             hours: '24 Hours',
             info: '4.0L V8 TT | 7-Speed Auto | 612 HP',
             shortdescription: 'Rent a blue Mclaren GT — a 2-seater Supercar with a 4.0L V8 TT engine, 612HP, and 465 LB-FT of torque!',

@@ -129,7 +129,7 @@
                     <a href="/maclaren-gt-rental"><nuxt-img class="w-full sm:h-56 md:h-96 object-cover" src="https://lasrental.s3.us-west-2.amazonaws.com/lasrental_website/Mclaren_GT_01.jpg" alt="" /></a>
                     <div class="text-center mt-8 mb-8">
                     <h4 class="mb-4">Mclaren GT</h4>
-                    <p class="mb-6">24HR: $1500</p>
+                    <p class="mb-6">24HR: $1000</p>
                     <a class="bg-red-600 text-white p-2 pl-8 pr-8 rounded-md" href="/maclaren-gt-rental">Book Now</a>
                     </div>
                     
@@ -143,7 +143,7 @@
                     <a href="/ferrari-rental"><nuxt-img class="w-full sm:h-56 md:h-72 object-cover" src="https://lasrental.s3.us-west-2.amazonaws.com/lasrental_website/Ferrari_488_main.jpeg" alt="" /></a>
                     <div class="text-center mt-8 mb-8">
                     <h4 class="mb-4">Ferrari 488</h4>
-                    <p class="mb-6">24HR: $1500</p>
+                    <p class="mb-6">24HR: $1000</p>
                     <a class="bg-red-600 text-white p-2 pl-8 pr-8 rounded-md" href="/ferrari-rental">Book Now</a>
                     </div>
                     
@@ -154,7 +154,7 @@
                     <a href="/lamborghini-huracan-rental"><nuxt-img class="w-full sm:h-56 md:h-72 object-cover" src="https://lasrental.s3.us-west-2.amazonaws.com/lasrental_website/Lamborghini_HC_Thumbnail.jpg" alt="" /></a>
                     <div class="text-center mt-8 mb-8">
                     <h4 class="mb-4">Lamborghini Huracan</h4>
-                    <p class="mb-6">24HR: $1500</p>
+                    <p class="mb-6">24HR: $1000</p>
                     <a class="bg-red-600 text-white p-2 pl-8 pr-8 rounded-md" href="/lamborghini-huracan-rental">Book Now</a>
                     </div>
                     

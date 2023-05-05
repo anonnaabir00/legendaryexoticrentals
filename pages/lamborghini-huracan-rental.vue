@@ -117,7 +117,7 @@ export default {
         return {
             image: "https://lasrental.s3.us-west-2.amazonaws.com/lasrental_website/Lamborghini_HC_Thumbnail.jpg",
             name: "Lamborghini Huracan",
-            price: 1500,
+            price: 1000,
             hours: '24 Hours',
             info: '5.2 V10 | 7-Speed Auto | 602 HP',
             shortdescription: 'Rent a White Lamborghini Huracan — a 2-seater Supercar with a 5.2 V10 engine, 602HP, and 412 LB-FT of torque!',

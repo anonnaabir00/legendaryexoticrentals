@@ -117,7 +117,7 @@ export default {
         return {
             image: "https://lasrental.s3.us-west-2.amazonaws.com/lasrental_website/Ferrari_488_main.jpeg",
             name: "Ferrari 488",
-            price: 1500,
+            price: 1000,
             hours: '24 Hours',
             info: '3.9L V8 | 7-Speed Auto | 602 HP',
             shortdescription: 'Rent a Charcoal Ferrari — a 2-seater Supercar with a 3.9L V8 engine, 661HP, and 561 LB-FT of torque!',
