@@ -5,7 +5,7 @@
     <div class="sm:hidden md:grid place-items-center bg-black">
         <div class="flex w-4/6 text-white p-2 justify-between items-center">
             <div class="flex w-2/5">
-                <a href="/"><img class="w-2/5" src="https://legendaryexoticrentals.com/wp-content/uploads/2022/03/laslogo_new.png" alt=""></a>
+                <a href="/"><img class="w-2/5" src="https://lasrental.s3.us-west-2.amazonaws.com/lasrental_website/laslogo_new.png" alt=""></a>
             </div>
 
             <div>
@@ -26,7 +26,7 @@
 
     <div class="sm:grid md:hidden grid-cols-2 items-center bg-black p-6">
     <div><a href="/">
-        <img class="w-4/5" src="https://legendaryexoticrentals.com/wp-content/uploads/2022/03/laslogo_new.png" alt="">
+        <img class="w-4/5" src="https://lasrental.s3.us-west-2.amazonaws.com/lasrental_website/laslogo_new.png" alt="">
     </a></div>
 
     <div>
