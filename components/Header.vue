@@ -10,7 +10,6 @@
 
             <div>
                 <ul class="flex text-base w-full space-x-12">
-                    <a href="/"><li>Home</li></a>
                     <a href="/private-tours"><li>Private Tours</li></a>
                     <a href="#services"><li>Services</li></a>
                     <a href="#cars"><li>Available Cars</li></a>
