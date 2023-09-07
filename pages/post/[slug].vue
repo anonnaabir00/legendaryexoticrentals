@@ -1,6 +1,5 @@
 <template>
     <div>
-        <h1>Alhamdulillah. Dynamic Page</h1>
         <div v-html="body"></div>
     </div>
 </template>

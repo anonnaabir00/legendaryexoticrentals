@@ -4,7 +4,7 @@
         <!-- Hero Main -->
         <div class="bg-hero bg-cover bg-center bg-no-repeat">
             <div class="grid place-items-center w-full sm:p-20 md:p-72 bg-black bg-opacity-40">
-                <h1 class="text-white text-center font-bold leading-normal text-4xl opacity-100">Rent Your Dream Car</h1>
+                <h1 class="text-white text-center font-bold leading-normal text-4xl opacity-100">{{ herotext }}</h1>
                 <a class="bg-red-600 text-white text-base p-2 sm:pl-6 md:pl-12 sm:pr-6 md:pr-12 mt-6 rounded-md" href="/booking">Book A Supercar</a>
             </div>
         </div>
@@ -81,17 +81,8 @@
         <!-- Video Section -->
 
         <div class="grid place-items-center w-full sm:p-4 md:p-0 sm:mt-2 md:mt-24 sm:mb-8 md:mb-24">
-            <h2 class="sm:text-2xl md:text-4xl font-bold mb-8">Walkthrough</h2>
-            <p class="sm:text-base md:text-lg leading-loose text-center mb-8">Check out our tutorial on how to easily check out one of our exotic vehicles.</p>
-            <!--
-                <video class="rounded-xl" width="1100" autoplay="autoplay" loop="loop" muted defaultMuted playsinline oncontextmenu="return false;"  preload="auto">
-            <source src="https://lasrental.s3.us-west-2.amazonaws.com/lasrental_website/lasrental.mp4" type="video/mp4">
-            </video>
-            
-            <video autoplay loop muted playsinline class="rounded-xl sm:w-5/6 md:w-3/6">
-            <source src="https://lasrental.s3.us-west-2.amazonaws.com/lasrental_website/lasrental.mp4" type="video/mp4">
-            </video>
-            -->
+            <h2 class="sm:text-2xl md:text-4xl font-bold mb-8">{{ videotitle }}</h2>
+            <p class="sm:text-base md:text-lg leading-loose text-center mb-8">{{ videodesc }}</p>
             <video
             id="my-video"
             class="rounded-xl sm:w-5/6 md:w-2/5"
@@ -101,9 +92,6 @@
             data-setup="{}"
             >
     <source src="https://lasrental.s3.us-west-2.amazonaws.com/lasrental_website/lasrental.mp4" type="video/mp4" /></video>
-            <!-- <video playsinline class="rounded-xl sm:w-5/6 md:w-3/6">
-            <source src="https://lasrental.s3.us-west-2.amazonaws.com/lasrental_website/lasrental.mp4" type="video/mp4">
-            </video>-->
         </div>
 
         <!-- Video Section End -->
@@ -111,8 +99,8 @@
         <!-- Available Cars Section -->
 
         <div id="cars" class="grid place-items-center w-full sm:md-8 md:mt-24 sm:mb-8 md:mb-24">
-            <h2 class="sm:text-2xl md:text-4xl text-center font-bold mb-8">Available Cars</h2>
-            <p class="sm:text-base md:text-lg mb-8">Book your favorite car before booked by others.</p>
+            <h2 class="sm:text-2xl md:text-4xl text-center font-bold mb-8">{{ carstitle }}</h2>
+            <p class="sm:text-base md:text-lg mb-8">{{ carsdesc }}</p>
 
             <ul class="grid sm:grid-cols-1 md:grid-cols-3 mt-4 mb-4 gap-8 sm:w-4/5 md:w-3/5">
                 <li v-for="car in cars" key="car.slug">
@@ -126,42 +114,6 @@
                 </div>
                 </li>
             </ul>
-
-            <!--
-            <div class="grid sm:grid-cols-1 md:grid-cols-3 gap-8 mt-8 mb-8 sm:w-4/5 md:w-3/5">
-                <div class="bg-white shadow-lg">
-                    <a href="/ferrari-rental"><nuxt-img class="w-full sm:h-56 md:h-72 object-cover" src="https://lasrental.s3.us-west-2.amazonaws.com/lasrental_website/Ferrari_488_main.jpeg" alt="" /></a>
-                    <div class="text-center mt-8 mb-8">
-                    <h4 class="mb-4">Ferrari 488</h4>
-                    <p class="mb-6">24HR: $1000</p>
-                    <a class="bg-red-600 text-white p-2 pl-8 pr-8 rounded-md" href="/ferrari-rental">Book Now</a>
-                    </div>
-                    
-                </div>
-
-
-                <div class="bg-white shadow-lg pb-4">
-                    <a href="/lamborghini-huracan-rental"><nuxt-img class="w-full sm:h-56 md:h-72 object-cover" src="https://lasrental.s3.us-west-2.amazonaws.com/lasrental_website/Lamborghini_HC_Thumbnail.jpg" alt="" /></a>
-                    <div class="text-center mt-8 mb-8">
-                    <h4 class="mb-4">Lamborghini Huracan</h4>
-                    <p class="mb-6">24HR: $1000</p>
-                    <a class="bg-red-600 text-white p-2 pl-8 pr-8 rounded-md" href="/lamborghini-huracan-rental">Book Now</a>
-                    </div>
-                    
-                </div>
-
-                <div class="bg-white shadow-lg pb-4">
-                    <a href="/audi-r8-rental"><nuxt-img class="w-full sm:h-56 md:h-72 object-cover" src="https://lasrental.s3.us-west-2.amazonaws.com/lasrental_website/nissan_gtr_new_2022_june_02.jpeg" alt="" /></a>
-                    <div class="text-center mt-8 mb-8">
-                    <h4 class="mb-4">Nissan GTR</h4>
-                    <p class="mb-6">24HR: $800</p>
-                    <a class="bg-red-600 text-white p-2 pl-8 pr-8 rounded-md" href="/audi-r8-rental">Book Now</a>
-                    </div>
-                    
-                </div>
-
-            </div>
-            -->
         </div>
 
         <!-- Available Cars Section End -->
@@ -181,19 +133,42 @@
 <script setup>
 import axios from 'axios';
 
+const settings = ref();
+const herotext = ref();
+const videotitle = ref();
+const videodesc = ref();
+const carstitle = ref();
+const carsdesc = ref();
+const phone = ref();
 const cars = ref();
+
+const fetchSettings = async () => {
+  try {
+    const response = await axios.get('https://booking.legendaryexoticrentals.com/api/settings/get');
+    // console.log(response.data)
+    herotext.value = response.data.herotext;
+    videotitle.value = response.data.videotitle;
+    videodesc.value = response.data.videodesc;
+    carstitle.value = response.data.carstitle;
+    carsdesc.value = response.data.carsdesc;
+    phone.value = response.data.phone;
+  } catch (error) {
+    console.error(error);
+  }
+};
 
 const fetchCars = async () => {
   try {
     const response = await axios.get('https://booking.legendaryexoticrentals.com/api/cars/all');
     const responseData = response.data['available_cars'];
     cars.value = responseData;
-    console.log(cars.value);
+    // console.log(cars.value);
   } catch (error) {
     console.error(error);
   }
 };
 
+onMounted(fetchSettings);
 onMounted(fetchCars);
 
 definePageMeta({
