@@ -131,7 +131,6 @@ const getCar = async () => {
   try {
     const slug = route.params.slug
     const response = await axios.get('https://booking.legendaryexoticrentals.com/api/car/get/' + slug);
-    console.log(response.data);
     name.value = response.data.name;
     description.value = response.data.description;
     short_description.value = response.data.short_description;
